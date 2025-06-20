@@ -1,0 +1,2 @@
+E:\AT5893 Mixed Reality Techniques\MR_Basics\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\CMakeLists.txt
+E:\AT5893 Mixed Reality Techniques\MR_Basics\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\cpp\GameActivity\CMakeLists.txt
