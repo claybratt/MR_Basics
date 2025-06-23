@@ -49,17 +49,14 @@ public class RopeGenerator : MonoBehaviour
     {
         if (ropeActive && player != null)
         {
-            Vector3 anchorPosition = transform.position;
-            Vector3 playerPosition = player.position;
-
-            if (Vector3.Distance(anchorPosition, playerPosition) > maxDistance)
+            if (Vector3.Distance(transform.position, player.position) > maxDistance)
             {
-                Vector3 direction = (playerPosition - anchorPosition).normalized;
-                player.position = anchorPosition + direction * maxDistance;
+                Vector3 direction = (player.position - transform.position).normalized;
+                player.position = transform.position + direction * maxDistance;
             }
 
-            lineRenderer.SetPosition(0, anchorPosition);
-            lineRenderer.SetPosition(1, player.position);
+            lineRenderer.SetPosition(0, transform.position);
+            lineRenderer.SetPosition(1, player.position + Vector3.up * 0.5f); // Adjust height for rope end
         }
     }
 

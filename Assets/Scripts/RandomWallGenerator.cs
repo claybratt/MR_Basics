@@ -130,6 +130,23 @@ public class RandomWallGenerator : MonoBehaviour
 
         return noiseHeight * depth;
     }
+    public void SetDepth(float value)
+    {
+        depth = value * 10;
+    }
+
+    public void SetNoiseScale(float value)
+    {
+        noiseScale = value * 100;
+    }
+    public void SetPersistence(float value)
+    {
+        persistence = value / 2;
+    }   
+    public void SetLacunarity(float value)
+    {
+        lacunarity = value * 10; // Prevent division by zero
+    }
 
     public void GeneratePrefabs()
     {
