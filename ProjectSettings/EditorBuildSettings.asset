@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/MOD 2 ASSIGNMENT.unity
     guid: c0e228c3682077041bca3e4962a28474
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/MOD 4 ASSIGNMENT.unity
     guid: 90cc55ed78010f74a8d54c953d666ffb
+  - enabled: 1
+    path: Assets/Scenes/Spire.unity
+    guid: 5d0a3bff4b8047847be0f83dd765e900
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 36510d50ae594fa4083e6633209dea02, type: 2}
